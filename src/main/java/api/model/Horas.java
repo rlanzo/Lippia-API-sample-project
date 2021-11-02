@@ -1,6 +1,6 @@
 package api.model;
 
-public class EditarHoras {
+public class Horas {
 
     private String id;
     private String description;
@@ -124,5 +124,12 @@ public class EditarHoras {
         this.customFieldValues = customFieldValues;
     }
 
+    public String getTimeInterval() {
+        return timeInterval;
+    }
+
+    public void setTimeInterval(String projectId) {
+        this.timeInterval = timeInterval;
+    }
 
 }
