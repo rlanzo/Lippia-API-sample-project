@@ -1,0 +1,24 @@
+{
+  "url": "https://api.clockify.me/api/v1/",
+  "headers": {
+    "x-Api-Key": "MmQ5MDNjM2QtNTc0NS00Yzg4LTgyNDAtYjQ3MmIyMGMzMmJl",
+    "content-type": "application/json"
+  },
+
+  "start": "2021-11-09T13:48:14.000Z",
+  "billable": "true",
+  "description": "Romina_Capacitacion",
+  "projectId": "617b125a11d52a34104e57cf",
+  "taskId": "",
+  "end": "2021-11-09T19:50:14.000Z",
+  "tagIds": [],
+  "customFields": [
+    {
+      "customFieldId" : "",
+      "value": "San Francisco"
+    }
+  ],
+"endpoint": "/workspaces/616f3efb99d16c30b318db43/user/616f3efa99d16c30b318db3c/time-entries"
+}
+
+
