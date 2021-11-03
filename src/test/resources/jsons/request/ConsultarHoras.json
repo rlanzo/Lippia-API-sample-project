@@ -1,5 +1,5 @@
 {
-  "url": "https://api.clockify.me/api/v1/",
+  "url": "https://api.clockify.me/api/v1",
   "headers": {
     "x-Api-Key": "MmQ5MDNjM2QtNTc0NS00Yzg4LTgyNDAtYjQ3MmIyMGMzMmJl",
     "content-type": "application/json"
