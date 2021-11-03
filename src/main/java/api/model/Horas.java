@@ -1,20 +1,36 @@
 package api.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class Horas {
 
+    @JsonProperty("id")
     private String id;
+    @JsonProperty("description")
     private String description;
+    @JsonProperty("tagIds")
     private String tagIds;
+    @JsonProperty("userId")
     private String userId;
+    @JsonProperty("billable")
     private Boolean billable;
+    @JsonProperty("taskId")
     private String taskId;
+    @JsonProperty("projectId")
     private String projectId;
+    @JsonProperty("timeInterval")
     private String timeInterval;
+    @JsonProperty("start")
     private String start;
+    @JsonProperty("end")
     private String end;
+    @JsonProperty("duration")
     private String duration;
+    @JsonProperty("workspaceId")
     private String workspaceId;
+    @JsonProperty("isLocked")
     private String isLocked;
+    @JsonProperty("customFieldValues")
     private String customFieldValues;
 
 
@@ -103,9 +119,7 @@ public class Horas {
         return end;
     }
 
-    public void setEnd(String end) {
-        this.end = end;
-    }
+    public void setEnd(String end) {this.end = end;}
 
     public String getisLocked() {
         return isLocked;

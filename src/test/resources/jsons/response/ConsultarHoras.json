@@ -1,0 +1,20 @@
+  {
+    "id": "617b131e28be343d87f7ef1e",
+    "description": "dia tres",
+    "tagIds": null,
+    "userId": "616f3efa99d16c30b318db3c",
+    "billable": true,
+    "taskId": null,
+    "projectId": "617b125a11d52a34104e57cf",
+    "timeInterval": {
+      "start": "2021-10-30T02:39:00Z",
+      "end": "2021-10-30T12:18:00Z",
+      "duration": "PT9H39M"
+    },
+    "workspaceId": "616f3efb99d16c30b318db43",
+    "isLocked": false,
+    "customFieldValues": []
+  }
+
+
+

@@ -4,6 +4,19 @@
     "x-Api-Key": "MmQ5MDNjM2QtNTc0NS00Yzg4LTgyNDAtYjQ3MmIyMGMzMmJl",
     "content-type": "application/json"
   },
+  "start": "2021-10-09T13:48:14.000Z",
+  "billable": "true",
+  "description": "Writing documentation",
+  "projectId": "616f3efb99d16c30b318db43",
+  "taskId": "",
+  "end": "2021-10-09T13:50:14.000Z",
+  "tagIds": [],
+  "customFields": [
+    {
+      "customFieldId" : "",
+      "value": "San Francisco"
+    }
+  ],
 
   "endpoint": "/workspaces/616f3efb99d16c30b318db43/user/616f3efa99d16c30b318db3c/time-entries"
 }

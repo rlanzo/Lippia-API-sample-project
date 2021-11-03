@@ -5,11 +5,11 @@ Feature: Api example
   Scenario Outline: Consultar las horas registradas en el proyecto elegido.
     When I perform a '<operation>' to '<entity>' endpoint with the '<jsonName>' and ''
     Then status code <statusCode> is obtained
-    And expected response is obtained in '<entity>' with '<expectedResponse>'
+
 
     Examples:
-      | jsonName       | statusCode | operation | entity         | expectedResponse |
-      | ConsultarHoras | 200        | GET       | CONSULTARHORAS | users            |
+      | jsonName       | statusCode | operation | entity         |
+      | ConsultarHoras | 200        | GET       | CONSULTARHORAS |
 
   @romi
   Scenario Outline: Agregar horas al proyecto elegido.
