@@ -19,19 +19,19 @@ public enum EntityConfiguration {
     AGREGARHORAS {
         @Override
         public Class<?> getEntityService() {
-            return AgregarHorasService.class;
+            return AddHorasService.class;
         }
     },
     EDITARRHORAS {
         @Override
         public Class<?> getEntityService() {
-            return EditarHorasService.class;
+            return CambiarHorasService.class;
         }
     },
     ELIMINARRHORAS {
         @Override
         public Class<?> getEntityService() {
-            return EliminarHorasService.class;
+            return BorrarHorasService.class;
         }
     };
 

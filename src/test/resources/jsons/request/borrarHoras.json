@@ -4,6 +4,6 @@
     "X-Api-Key": "{{api-key}}",
     "Content-Type": "application/json"
   },
-  "endpoint": "/workspaces/{{workspaceId}}/user/{{userId}}/time-entries"
-}
 
+  "endpoint": "/workspaces/{{workspaceId}}/time-entries/{{time-id}}"
+}

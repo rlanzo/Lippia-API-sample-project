@@ -46,4 +46,6 @@ public class CustomFieldValues {
     public void setType(String type) {
         this.type = type;
     }
+
+
 }
