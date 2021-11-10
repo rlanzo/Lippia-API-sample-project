@@ -1,29 +1,21 @@
 {
   "billable": "true",
-  "description": "Writing documentation",
-  "id": "5b0fdf2a0cb87904845dfer5",
+  "description": "dia tres",
+  "id": "617b131e28be343d87f7ef1e",
   "isLocked": "false",
-  "projectId": "5b1667790cb8797321f3d664",
+  "projectId": "617b125a11d52a34104e57cf",
   "tagIds": [
-    "5a7c5d2db079870147fra234"
+    "null"
   ],
-  "taskId": "5b1e6b160cb8793dd93ec120",
+  "taskId": "null",
   "timeInterval": {
-    "duration": "PT2M",
-    "end": "2018-06-12T13:48:14Z",
-    "start": "2018-06-12T13:50:14Z"
+    "duration": "PT9H39M",
+    "end": "2021-10-30T02:39:00Z",
+    "start": "2021-10-30T12:18:00Z"
   },
-  "userId": "6h1e49bf0cb8790e43d6c9ab",
-  "workspaceId": "5g3g57bt0cb2548e22e6l9cd",
-  "customFieldValues": [
-    {
-      "customFieldId" : "5b1e6b160cb8793dd93ec120",
-      "timeEntryId" : "5c5bda4fb079871c518b6f07",
-      "value": "San Francisco",
-      "name": "Location",
-      "type": "TXT"
-    }
-  ]
+  "userId": "616f3efa99d16c30b318db3c",
+  "workspaceId": "616f3efb99d16c30b318db43",
+  "customFieldValues": []
 }
 
 

@@ -8,11 +8,8 @@ import com.crowdar.api.rest.Response;
 public class AgregarHorasService extends MethodsService {
 
 
-    public static Response get(String jsonName) {
-        return get(jsonName, AgregarHoras.class);
+    public static Response post(String jsonName) {
+        return post(jsonName, AgregarHoras.class);
     }
 
-    public static Response delete(String jsonName) {
-        return delete(jsonName, null);
-    }
 }

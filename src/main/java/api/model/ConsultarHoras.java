@@ -8,7 +8,7 @@ public class ConsultarHoras {
 
     private String id;
     private String description;
-    //private String tagIds;
+    private String tagIds;
     private String userId;
     private Boolean billable;
     private String taskId;
@@ -34,13 +34,13 @@ public class ConsultarHoras {
         this.description = description;
     }
 
-    //public String getTagIds() {
-    //    return tagIds;
-    //}
+    public String getTagIds() {
+       return tagIds;
+    }
 
-    //public void setTagIds(String tagIds) {
-    //   this.tagIds = tagIds;
-    //}
+    public void setTagIds(String tagIds) {
+       this.tagIds = tagIds;
+    }
 
     public String getUserId() {
         return userId;

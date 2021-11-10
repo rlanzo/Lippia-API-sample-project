@@ -4,7 +4,7 @@
     "x-Api-Key": "MmQ5MDNjM2QtNTc0NS00Yzg4LTgyNDAtYjQ3MmIyMGMzMmJl",
     "content-type": "application/json"
   },
-
+  "body":{
   "start": "2021-11-09T13:48:14.000Z",
   "billable": "true",
   "description": "Romina_Capacitacion",
@@ -17,7 +17,8 @@
       "customFieldId" : "",
       "value": "San Francisco"
     }
-  ],
+  ]
+},
 "endpoint": "/workspaces/616f3efb99d16c30b318db43/user/616f3efa99d16c30b318db3c/time-entries"
 }
 
