@@ -10,12 +10,12 @@ public enum EntityConfiguration {
             return UserService.class;
         }
     },
-    CONSULTARHORAS {
-        @Override
-        public Class<?> getEntityService() {
-            return ConsultarHorasService.class;
-        }
-    },
+        CONSULTARHORAS {
+            @Override
+            public Class<?> getEntityService() {
+                return ConsultarHorasService.class;
+            }
+        },
     AGREGARHORAS {
         @Override
         public Class<?> getEntityService() {

@@ -1,37 +1,21 @@
 package api.model;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class Horas {
+import java.util.List;
 
-    @JsonProperty("id")
+public class AgregarHoras {
+
     private String id;
-    @JsonProperty("description")
     private String description;
-    @JsonProperty("tagIds")
-    private String tagIds;
-    @JsonProperty("userId")
+    private List<String> tagIds;
     private String userId;
-    @JsonProperty("billable")
     private Boolean billable;
-    @JsonProperty("taskId")
     private String taskId;
-    @JsonProperty("projectId")
     private String projectId;
-    @JsonProperty("timeInterval")
-    private String timeInterval;
-    @JsonProperty("start")
-    private String start;
-    @JsonProperty("end")
-    private String end;
-    @JsonProperty("duration")
-    private String duration;
-    @JsonProperty("workspaceId")
+    private TimeInterval timeInterval;
     private String workspaceId;
-    @JsonProperty("isLocked")
-    private String isLocked;
-    @JsonProperty("customFieldValues")
-    private String customFieldValues;
+    private boolean isLocked;
+    private List<CustomFieldValues> customFieldValues;
 
 
     public String getId() {
@@ -75,11 +59,11 @@ public class Horas {
     }
 
 
-    public String getTagIds() {
+    public List<String> getTagIds() {
         return tagIds;
     }
 
-    public void setTaskIds(String tagIds) {
+    public void setTaskIds(List<String> tagIds) {
         this.tagIds = tagIds;
     }
 
@@ -91,14 +75,6 @@ public class Horas {
         this.taskId = taskId;
     }
 
-    public String getDuration() {
-        return duration;
-    }
-
-    public void setDuration(String duration) {
-        this.duration = duration;
-    }
-
     public String getProjectId() {
         return projectId;
     }
@@ -107,42 +83,29 @@ public class Horas {
         this.projectId = projectId;
     }
 
-    public String getStart() {
-        return start;
-    }
-
-    public void setStart(String start) {
-        this.start = start;
-    }
-
-    public String getEnd() {
-        return end;
-    }
-
-    public void setEnd(String end) {this.end = end;}
-
-    public String getisLocked() {
+    public boolean getLocked() {
         return isLocked;
     }
 
-    public void setisLocked(String isLocked) {
-        this.isLocked = isLocked;
+    public void setLocked(boolean Locked) {
+        isLocked = Locked;
     }
 
-    public String getCustomFieldValues() {
+    public List<CustomFieldValues> getCustomFieldValues() {
         return customFieldValues;
     }
 
-    public void setCustomFieldValues(String customFieldValues) {
+    public void setCustomFieldValues(List<CustomFieldValues> customFieldValues) {
         this.customFieldValues = customFieldValues;
     }
 
-    public String getTimeInterval() {
+    public TimeInterval getTimeInterval() {
         return timeInterval;
     }
 
-    public void setTimeInterval(String projectId) {
+    public void setTimeInterval(TimeInterval timeInterval) {
         this.timeInterval = timeInterval;
     }
+
 
 }
