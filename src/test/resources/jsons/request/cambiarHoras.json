@@ -5,9 +5,9 @@
     "Content-Type": "application/json"
   },
   "body": {
-    "start": "{{hour}}",
+    "start": "2021-06-12T14:00:37Z",
     "billable": "true",
-    "description": "Writing documentation updated",
+    "description": "cambio de nombre",
     "projectId": "{{projectId}}",
     "taskId": "",
     "end": "2021-11-20T14:00:00Z",
@@ -19,5 +19,5 @@
       }
     ]
   },
-  "endpoint": "/workspaces/{{workspaceId}}/time-entries/{{time-id}}"
+  "endpoint": "/workspaces/616f3efb99d16c30b318db43/time-entries/617c61ed11d52a34104f812a"
 }

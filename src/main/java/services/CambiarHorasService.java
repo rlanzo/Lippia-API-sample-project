@@ -21,10 +21,6 @@ public class CambiarHorasService extends MethodsService {
         Map<String, String> params = new HashMap<String, String>();
          params.put("base.url", PropertyManager.getProperty("base.api.url"));
          params.put("api-key", BaseServices.API_KEY.get());
-         params.put("workspaceId", BaseServices.WORKSPACE_ID.get());
-         params.put("projectId", BaseServices.PROJECT_ID.get());
-         params.put("time-id", CambiarHorasService.ID_TIME_ENTRIES.get());
-         params.put("hour", CambiarHorasService.HOUR.get());
         return params;
     }
 }

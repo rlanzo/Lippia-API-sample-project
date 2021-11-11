@@ -18,8 +18,6 @@ public class ConsultarHorasService extends MethodsService {
         Map<String, String> params = new HashMap<String, String>();
         params.put("base.url", PropertyManager.getProperty("base.api.url"));
         params.put("api-key", BaseServices.API_KEY.get());
-        params.put("workspaceId", BaseServices.WORKSPACE_ID.get());
-        params.put("userId", BaseServices.USER_ID.get());
         return params;
     }
 }

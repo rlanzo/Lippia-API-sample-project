@@ -1,24 +1,15 @@
 package ar.Validator;
 
-import api.model.Horas;
-import api.model.TimeInterval;
+
+import api.model.TimesEntriesResponse;
 import com.crowdar.api.rest.APIManager;
 import org.testng.Assert;
 
 public class ProjectValidator {
-    public static void validaId(String start, String entity) {
-        Horas response = (Horas) APIManager.getLastResponse().getResponse();
-        Assert.assertTrue(entity.contains(response.getId()), "las horas del projecto es nulo");
-    }
 
-    public static void validateTime(String time) {
-        TimeInterval response = (TimeInterval) APIManager.getLastResponse().getResponse();
-        Assert.assertTrue(time.contains(response.getDuration()), "The time of project is null");
-    }
-
-    public static void validateDescription() {
-        Horas response = (Horas) APIManager.getLastResponse().getResponse();
-        Assert.assertTrue(response.getDescription().contains("NewHour"), "The description is null");
+    public static void validateId(String entity) {
+        TimesEntriesResponse response = (TimesEntriesResponse) APIManager.getLastResponse().getResponse();
+        Assert.assertTrue(entity.contains(response.getId()), "el id del projecto es nulo");
     }
 
 }

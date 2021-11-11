@@ -17,8 +17,6 @@ public class AddHorasService extends MethodsService {
         Map<String, String> params = new HashMap<String, String>();
         params.put("base.url", PropertyManager.getProperty("base.api.url"));
         params.put("api-key", BaseServices.API_KEY.get());
-        params.put("workspaceId", BaseServices.WORKSPACE_ID.get());
-        params.put("project-id", BaseServices.PROJECT_ID.get());
         params.put("start", BaseServices.START.get());
         params.put("end", BaseServices.END.get());
         return params;
