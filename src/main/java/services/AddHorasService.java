@@ -19,6 +19,8 @@ public class AddHorasService extends MethodsService {
         params.put("api-key", BaseServices.API_KEY.get());
         params.put("workspaceId", BaseServices.WORKSPACE_ID.get());
         params.put("project-id", BaseServices.PROJECT_ID.get());
+        params.put("start", BaseServices.START.get());
+        params.put("end", BaseServices.END.get());
         return params;
     }
 }

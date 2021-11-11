@@ -6,9 +6,9 @@ import com.crowdar.api.rest.APIManager;
 import org.testng.Assert;
 
 public class ProjectValidator {
-    public static void validaId(String entity) {
+    public static void validaId(String start, String entity) {
         Horas response = (Horas) APIManager.getLastResponse().getResponse();
-        Assert.assertTrue(entity.contains(response.getId()), "The id of project is null");
+        Assert.assertTrue(entity.contains(response.getId()), "las horas del projecto es nulo");
     }
 
     public static void validateTime(String time) {

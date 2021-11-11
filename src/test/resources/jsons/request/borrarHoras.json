@@ -5,5 +5,5 @@
     "Content-Type": "application/json"
   },
 
-  "endpoint": "/workspaces/{{workspaceId}}/time-entries/{{time-id}}"
+  "endpoint": "/workspaces/616f3efb99d16c30b318db43/time-entries/617b164c28be343d87f82647"
 }
