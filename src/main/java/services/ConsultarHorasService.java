@@ -9,7 +9,6 @@ import com.crowdar.core.PropertyManager;
 import java.util.HashMap;
 import java.util.Map;
 
-import static api.model.BaseServices.*;
 
 public class ConsultarHorasService extends MethodsService {
 

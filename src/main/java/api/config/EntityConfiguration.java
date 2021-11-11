@@ -10,25 +10,25 @@ public enum EntityConfiguration {
             return UserService.class;
         }
     },
-        CONSULTARHORAS {
+        CONSULTAR_HORAS {
             @Override
             public Class<?> getEntityService() {
                 return ConsultarHorasService.class;
             }
         },
-    AGREGARHORAS {
+    AGREGAR_HORAS {
         @Override
         public Class<?> getEntityService() {
             return AddHorasService.class;
         }
     },
-    EDITARRHORAS {
+    EDITAR_HORAS {
         @Override
         public Class<?> getEntityService() {
             return CambiarHorasService.class;
         }
     },
-    ELIMINARRHORAS {
+    ELIMINAR_HORAS {
         @Override
         public Class<?> getEntityService() {
             return BorrarHorasService.class;

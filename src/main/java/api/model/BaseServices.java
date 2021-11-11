@@ -6,7 +6,9 @@ public class BaseServices {
     public static final ThreadLocal<String> WORKSPACE_ID = new ThreadLocal<String>();
     public static final ThreadLocal<String> USER_ID = new ThreadLocal<String>();
     public static final ThreadLocal<String> PROJECT_ID = new ThreadLocal<String>();
-
+    public static final ThreadLocal<String> DESCRIPTION = new ThreadLocal<String>();
+    public static final ThreadLocal<String> START = new ThreadLocal<String>();
+    public static final ThreadLocal<String> END = new ThreadLocal<String>();
 
 
 }

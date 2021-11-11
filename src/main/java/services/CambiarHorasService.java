@@ -11,6 +11,7 @@ import java.util.Map;
 
 public class CambiarHorasService extends MethodsService {
     public static final ThreadLocal<String> ID_TIME_ENTRIES = new ThreadLocal<String>();
+    public static final ThreadLocal<String> HOUR = new ThreadLocal<String>();
 
     public static Response put(String jsonName) { return put(jsonName, Horas[].class, setParams()); }
 
@@ -23,6 +24,7 @@ public class CambiarHorasService extends MethodsService {
          params.put("workspaceId", BaseServices.WORKSPACE_ID.get());
          params.put("projectId", BaseServices.PROJECT_ID.get());
          params.put("time-id", CambiarHorasService.ID_TIME_ENTRIES.get());
+         params.put("hour", CambiarHorasService.HOUR.get());
         return params;
     }
 }

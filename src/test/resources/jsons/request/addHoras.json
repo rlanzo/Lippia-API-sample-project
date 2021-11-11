@@ -5,19 +5,23 @@
     "Content-Type": "application/json"
   },
   "body": {
-    "start": "2021-11-20T13:00:00Z",
+    "start": "2018-06-12T13:48:14.000Z",
     "billable": "true",
-    "description": "Writing documentation",
-    "projectId": "{{projectId}}",
-    "taskId": "",
-    "end": "2021-11-20T14:00:00Z",
-    "tagIds": [],
+    "description": "Romina_Capacitacion",
+    "projectId": "5b1667790cb8797321f3d664",
+    "taskId": "5b1e6b160cb8793dd93ec120",
+    "end": "2018-06-12T13:50:14.000Z",
+    "tagIds": [
+      "5a7c5d2db079870147fra234"
+    ],
     "customFields": [
       {
-        "customFieldId" : "",
+        "customFieldId": "5b1e6b160cb8793dd93ec120",
         "value": "San Francisco"
       }
     ]
   },
-  "endpoint": "/workspaces/{{workspaceId}}/time-entries"
+
+  "endpoint": "/workspaces/{{workspaceId}}/user/616f3efa99d16c30b318db3c/time-entries"
 }
+
